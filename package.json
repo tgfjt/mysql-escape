@@ -23,7 +23,11 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": "prettier"
+    "extends": "prettier",
+    "rules": {
+      "no-control-regex": 1,
+      "no-useless-escape": 1
+    }
   },
   "lint-staged": {
     "*.js": [
