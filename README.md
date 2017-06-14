@@ -16,5 +16,5 @@ myEscape();
 
 [npm-image]: https://img.shields.io/npm/v/@tgfjt/mysql-escape.svg
 [npm-url]: https://npmjs.org/package/@tgfjt/mysql-escape
-[travis-image]: https://img.shields.io/travis/tgjft/mysql-escape/master.svg?label=linux
-[travis-url]: https://travis-ci.org/tgjft/mysql-escape
+[travis-image]: https://img.shields.io/travis/tgfjt/mysql-escape/master.svg?label=linux
+[travis-url]: https://travis-ci.org/tgfjt/mysql-escape
