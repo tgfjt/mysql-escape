@@ -1,0 +1,35 @@
+{
+  "name": "@tgfjt/mysql-escape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "xo",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "tgfjt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^2.1.1",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.1",
+    "prettier": "^1.4.4",
+    "tape": "^4.6.3",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": "prettier"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  }
+}
